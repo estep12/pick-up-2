@@ -14,25 +14,25 @@ class Player extends Component {
     }
 
     submitUser = () => {
-        this.setState({
-                firstName: "",
-                lastName: "",
-                userName:"",
-                phoneNumber: ""
-            })
-        // API.saveUser({
-        //     firstName: this.state.firstName,
-        //     lastName: this.state.lastName,
-        //     userName: this.state.userName,
-        //     phoneNumber: this.state.phoneNumber,
-        //     user: this.props.userId
-        // })
-        // .then(res => this.setState({
-        //     firstName: "",
-        //     lastName: "",
-        //     userName:"",
-        //     phoneNumber: ""
-        // }))
+        // this.setState({
+        //         firstName: "",
+        //         lastName: "",
+        //         userName:"",
+        //         phoneNumber: ""
+        //     })
+        API.saveUser({
+            firstName: this.state.firstName,
+            lastName: this.state.lastName,
+            userName: this.state.userName,
+            phoneNumber: this.state.phoneNumber,
+            user: this.props.userId
+        })
+        .then(res => this.setState({
+            firstName: "",
+            lastName: "",
+            userName:"",
+            phoneNumber: ""
+        }))
     };
 
     handleInputChange = event => {

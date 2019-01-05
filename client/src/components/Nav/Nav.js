@@ -12,7 +12,7 @@ class Nav extends Component {
                         <a className="navbar-brand" id="brand" href="#">PickupPal</a>
                     </div>
                     <div className="navbar-right">
-                    <Link to="/"><i className="fas fa-home"></i></Link>
+                        {/* <Link to="/"><i className="fas fa-home"></i></Link> */}
                     </div>
                 </div>
             </nav>
