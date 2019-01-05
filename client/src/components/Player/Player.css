@@ -1,0 +1,13 @@
+button {
+    margin-top: 15% !important;
+    background-color: #D3353E !important;
+    border-style: none !important;
+    font-family: 'Oswald', sans-serif !important;
+    width: 175px;
+}
+
+form {
+    font-family: 'Oswald', sans-serif;
+    color: #0D2162;
+    font-size: 20px;
+}

@@ -1,0 +1,22 @@
+.btn-secondary {
+    width: 205px !important;
+    height: 20px !important;
+    float: left !important;
+    margin: 10px !important;
+    font-size: 12px !important;
+}
+
+h2 {
+    font-size: 22px !important;
+    font-family: 'Oswald', sans-serif;
+    color: #0D2162;
+}
+
+#start-game {
+    width: 175px !important;
+    height: 40px !important;
+    position: relative !important;
+    bottom: 25px !important;
+    font-size: 20px !important;
+    background-color: #0D2162 !important;
+}

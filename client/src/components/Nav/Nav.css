@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #D3353E;
+    margin-bottom: 50px;
+    height: 80px;
+}
+
+.dropdown {
+    list-style: none;
+}
+
+#brand {
+    color: white;
+    margin-left: 65%;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+}
+
+i {
+    color: white;
+}

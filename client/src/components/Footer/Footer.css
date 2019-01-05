@@ -1,0 +1,11 @@
+.panel-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    background-color: #F5F7FA;
+    font-size: 10px;
+    padding: 7px;
+    color: #0D2162;
+
+}

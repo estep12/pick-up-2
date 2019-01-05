@@ -1,0 +1,15 @@
+button {
+    font-family: 'Oswald', sans-serif !important;
+    background-color: #0D2162 !important;
+    color: white !important;
+    width: 200px !important;
+    height: 75px !important;
+    margin-bottom: 25px !important;
+    border-radius: 50px !important;
+    font-size: 26px !important;
+    float: none !important;
+}
+
+a {
+    color: white !important;
+}
