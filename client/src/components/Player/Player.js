@@ -50,7 +50,7 @@ class Player extends Component {
         return (
             <div>
             <Header header="Create a Player" />
-            <form method="POST" action="/player">
+            <div  action="/player">
                 <div className="form-group">
                     <label htmlFor="firstName">First Name</label>
                     <input
@@ -107,7 +107,7 @@ class Player extends Component {
                     <small id="phoneNumberHelp" class="form-text text-muted">For getting the squad together!</small>
                 </div>
                 <button type="submit" onClick={this.submitUser} class="btn btn-primary">Add Player</button>
-            </form>
+            </div>
             </div>
         )
     }

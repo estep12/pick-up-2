@@ -38,11 +38,10 @@ getUsers = () => {
             <h2>Team 1</h2>
                 <div class="btn-group">
                     <button className="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Player 1
-                    </button>
                         <div class="dropdown-menu">
                             {this.state.players.length}
                         </div>
+                    </button>
                 </div>
                 <div class="btn-group">
                     <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
